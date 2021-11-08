@@ -1,0 +1,78 @@
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+    
+}
+ 
+main{
+    height: 600px;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+ 
+#hero{
+    width: 400px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+ 
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+#info{
+    text-align: center;
+    width: 300px;
+    margin: 0px 50px;
+}
+#plan{
+    width: 350px;
+    height: 95px;
+    margin: 25px;
+    background-color: yellow;
+    display: inline-block;
+    position: relative;
+    border-radius: 12px;
+    background-color: rgba(154, 161, 168, 0.1);
+}
+#music-icon{
+    padding: 4px 20px;
+    position: absolute;
+    top: 18%;
+}
+h3{
+    position: absolute;
+    left: 80px;
+}
+#price{
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    top: 32px;
+}
+#change{
+    position: absolute;
+    right: 20px;
+    top: 38%;
+    text-decoration: none;
+}
+#payment-button{
+    width: 350px;
+    margin-left: 25px;
+    padding: 12px 0px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+}
+#cancel-button{
+    width: 350px;
+    margin: 12px 25px;
+    padding: 12px 0px;
+    border-radius: 8px;
+    border: none;
+    color:black;
+    background-color: white;
+}
