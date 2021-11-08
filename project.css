@@ -1,6 +1,8 @@
 body{
-    background-image: url(/images/pattern-background-desktop.svg);
-    
+    background-image: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:hsl(225, 100%, 98%);
 }
  
 main{
@@ -37,6 +39,9 @@ h2{
     border-radius: 12px;
     background-color: rgba(154, 161, 168, 0.1);
 }
+#plan:hover{
+    background-color:rgba(120, 125, 129, 0.281);
+}
 #music-icon{
     padding: 4px 20px;
     position: absolute;
@@ -67,6 +72,9 @@ h3{
     color: white;
     background-color: hsl(245, 75%, 52%);
 }
+#payment-button:hover{
+    background-color: hsl(245, 71%, 68%);
+}
 #cancel-button{
     width: 350px;
     margin: 12px 25px;
@@ -75,4 +83,8 @@ h3{
     border: none;
     color:black;
     background-color: white;
+}
+#cancel-button:hover{
+    background-color:rgba(120, 125, 129, 0.281);
+
 }
